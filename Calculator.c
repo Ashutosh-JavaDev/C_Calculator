@@ -81,6 +81,11 @@ void addition()
     scanf("%lf", &num1);
     printf("Enter the Second Number\n");
     scanf("%lf", &num2);
-    result = num1 / num2;
-    printf("Result: %.2lf", result);
+    if(num2!=0){
+        result=num1/num2;
+        printf("Result: %.2lf",result);
+    }
+    else{
+        printf("Error:  Division with 0 is Undifined\n");
+    }
 }
