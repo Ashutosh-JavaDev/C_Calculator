@@ -81,6 +81,6 @@ void addition()
     scanf("%lf", &num1);
     printf("Enter the Second Number\n");
     scanf("%lf", &num2);
-    result = num1 + num2;
+    result = num1 / num2;
     printf("Result: %.2lf", result);
 }
