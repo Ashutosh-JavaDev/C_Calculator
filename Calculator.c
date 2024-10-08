@@ -9,7 +9,7 @@ int main()
     int choice;
     while (1)
     {
-        printf("....Simple Calculator....\n");
+        printf("\n....Simple Calculator....\n");
         printf("1. Addition\n");
         printf("2. Subtraction\n");
         printf("3. Multipication\n");
@@ -47,7 +47,7 @@ int main()
 void addition()
 {
     double num1, num2, result;
-    printf("Enter the Second Number\n");
+    printf("Enter the First Number\n");
     scanf("%lf", &num1);
     printf("Enter the Second Number\n");
     scanf("%lf", &num2);
@@ -57,7 +57,7 @@ void addition()
 void substraction()
 {
     double num1, num2, result;
-    printf("Enter the Second Number\n");
+    printf("Enter the First Number\n");
     scanf("%lf", &num1);
     printf("Enter the Second Number\n");
     scanf("%lf", &num2);
@@ -68,7 +68,7 @@ void multipication()
 {
 
     double num1, num2, result;
-    printf("Enter the Second Number\n");
+    printf("Enter the First Number\n");
     scanf("%lf", &num1);
     printf("Enter the Second Number\n");
     scanf("%lf", &num2);
@@ -78,7 +78,7 @@ void multipication()
 void division()
 {
     double num1, num2, result;
-    printf("Enter the Second Number\n");
+    printf("Enter the First Number\n");
     scanf("%lf", &num1);
     printf("Enter the Second Number\n");
     scanf("%lf", &num2);
