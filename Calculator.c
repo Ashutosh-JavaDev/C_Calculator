@@ -37,6 +37,9 @@ int main()
             case 6:
             exit(0);
             break;
+            default:
+            printf("Choose Wisely(1-6)\n");
         }
     }
+    return 0;
 }
