@@ -16,7 +16,7 @@ int main()
         printf("4. Division\n");
         printf("5. Clear(Reset\n");
         printf("6. Exit\n");
-        printf("Choose wise (1-6)");
+        printf("Choose wise (1-6)... ");
         scanf("%d", &choice);
         switch (choice)
         {
