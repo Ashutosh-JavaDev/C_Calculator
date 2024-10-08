@@ -1,100 +1,94 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 void addition();
-void subtraction();
-void multiplication();
+void substraction();
+void multipication();
 void division();
-
 int main()
 {
     int choice;
     while (1)
     {
-        printf("\n*** Simple Calculator ***\n");
+        printf("....Simple Calculator....\n");
         printf("1. Addition\n");
         printf("2. Subtraction\n");
-        printf("3. Multiplication\n");
+        printf("3. Multipication\n");
         printf("4. Division\n");
-        printf("5. Clear (Reset)\n");
+        printf("5. Clear(Reset\n");
         printf("6. Exit\n");
-        printf("Enter your choice (1-6): ");
+        printf("Choose wise (1-6)");
         scanf("%d", &choice);
-
         switch (choice)
         {
         case 1:
             addition();
             break;
         case 2:
-            subtraction();
+            substraction();
             break;
         case 3:
-            multiplication();
+            multipication();
             break;
         case 4:
             division();
             break;
         case 5:
-            system("cls"); // Clears the console (Windows)
+            system("Cls");
             break;
         case 6:
-            exit(0); // Exit the program
+            exit(0);
             break;
         default:
-            printf("Invalid choice. Please select again.\n");
+            printf("Choose Wisely(1-6)\n");
         }
     }
     return 0;
 }
-
 void addition()
 {
     double num1, num2, result;
-    printf("Enter first number: ");
+    printf("Enter the Second Number\n");
     scanf("%lf", &num1);
-    printf("Enter second number: ");
+    printf("Enter the Second Number\n");
     scanf("%lf", &num2);
     result = num1 + num2;
-    printf("Result: %.2lf\n", result);
+    printf("Result: %.2lf", result);
 }
-
-void subtraction()
+void substraction()
 {
     double num1, num2, result;
-    printf("Enter first number: ");
+    printf("Enter the Second Number\n");
     scanf("%lf", &num1);
-    printf("Enter second number: ");
+    printf("Enter the Second Number\n");
     scanf("%lf", &num2);
     result = num1 - num2;
-    printf("Result: %.2lf\n", result);
+    printf("Result: %.2lf", result);
 }
-
-void multiplication()
+void multipication()
 {
+
     double num1, num2, result;
-    printf("Enter first number: ");
+    printf("Enter the Second Number\n");
     scanf("%lf", &num1);
-    printf("Enter second number: ");
+    printf("Enter the Second Number\n");
     scanf("%lf", &num2);
     result = num1 * num2;
-    printf("Result: %.2lf\n", result);
+    printf("Result: %.2lf", result);
 }
-
 void division()
 {
     double num1, num2, result;
-    printf("Enter first number: ");
+    printf("Enter the Second Number\n");
     scanf("%lf", &num1);
-    printf("Enter second number: ");
+    printf("Enter the Second Number\n");
     scanf("%lf", &num2);
     if (num2 != 0)
     {
         result = num1 / num2;
-        printf("Result: %.2lf\n", result);
+        printf("Result: %.2lf", result);
     }
     else
     {
-        printf("Error: Division by zero is undefined.\n");
+        printf("Error:  Division with 0 is Undifined\n");
     }
 }
