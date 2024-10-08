@@ -54,3 +54,33 @@ void addition()
     result = num1 + num2;
     printf("Result: %.2lf", result);
 }
+void subtraction()
+{
+    double num1, num2, result;
+    printf("Enter the Second Number\n");
+    scanf("%lf", &num1);
+    printf("Enter the Second Number\n");
+    scanf("%lf", &num2);
+    result = num1 - num2;
+    printf("Result: %.2lf", result);
+}
+void addition()
+{
+    double num1, num2, result;
+    printf("Enter the Second Number\n");
+    scanf("%lf", &num1);
+    printf("Enter the Second Number\n");
+    scanf("%lf", &num2);
+    result = num1 * num2;
+    printf("Result: %.2lf", result);
+}
+void addition()
+{
+    double num1, num2, result;
+    printf("Enter the Second Number\n");
+    scanf("%lf", &num1);
+    printf("Enter the Second Number\n");
+    scanf("%lf", &num2);
+    result = num1 + num2;
+    printf("Result: %.2lf", result);
+}
