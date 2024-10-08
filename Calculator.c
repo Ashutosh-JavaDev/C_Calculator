@@ -44,8 +44,7 @@ int main()
     }
     return 0;
 }
-void addition()
-{
+void addition(){
     double num1, num2, result;
     printf("Enter the Second Number\n");
     scanf("%lf", &num1);
@@ -54,8 +53,7 @@ void addition()
     result = num1 + num2;
     printf("Result: %.2lf", result);
 }
-void subtraction()
-{
+void subtraction(){
     double num1, num2, result;
     printf("Enter the Second Number\n");
     scanf("%lf", &num1);
@@ -64,8 +62,8 @@ void subtraction()
     result = num1 - num2;
     printf("Result: %.2lf", result);
 }
-void multipication()
-{
+void multipication(){
+
     double num1, num2, result;
     printf("Enter the Second Number\n");
     scanf("%lf", &num1);
@@ -74,8 +72,7 @@ void multipication()
     result = num1 * num2;
     printf("Result: %.2lf", result);
 }
-void division()
-{
+void division(){
     double num1, num2, result;
     printf("Enter the Second Number\n");
     scanf("%lf", &num1);
