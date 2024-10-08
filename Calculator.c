@@ -64,7 +64,7 @@ void subtraction()
     result = num1 - num2;
     printf("Result: %.2lf", result);
 }
-void addition()
+void multipication()
 {
     double num1, num2, result;
     printf("Enter the Second Number\n");
@@ -74,7 +74,7 @@ void addition()
     result = num1 * num2;
     printf("Result: %.2lf", result);
 }
-void addition()
+void division()
 {
     double num1, num2, result;
     printf("Enter the Second Number\n");
