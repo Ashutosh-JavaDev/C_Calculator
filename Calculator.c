@@ -18,28 +18,37 @@ int main()
         printf("6. Exit\n");
         printf("Choose wise (1-6)");
         scanf("%d", &choice);
-        switch(choice){
-            case 1:
+        switch (choice)
+        {
+        case 1:
             addition();
             break;
-            case 2:
+        case 2:
             substraction();
             break;
-            case 3:
+        case 3:
             multipication();
             break;
-            case 4:
+        case 4:
             division();
             break;
-            case 5:
+        case 5:
             system("Cls");
             break;
-            case 6:
+        case 6:
             exit(0);
             break;
-            default:
+        default:
             printf("Choose Wisely(1-6)\n");
         }
     }
     return 0;
+}
+void addition()
+{
+    double num1, num2, result;
+    printf("Enter the Second Number\n");
+    scanf("%lf", &num1);
+    printf("Enter the Second Number\n");
+    scanf("%lf", &num2);
 }
