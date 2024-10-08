@@ -18,5 +18,25 @@ int main()
         printf("6. Exit\n");
         printf("Choose wise (1-6)");
         scanf("%d", &choice);
+        switch(choice){
+            case 1:
+            addition();
+            break;
+            case 2:
+            substraction();
+            break;
+            case 3:
+            multipication();
+            break;
+            case 4:
+            division();
+            break;
+            case 5:
+            system("Cls");
+            break;
+            case 6:
+            exit(0);
+            break;
+        }
     }
 }
